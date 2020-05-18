@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3094BBA924725712002C4295 /* PTBaseDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3094BB9F24725712002C4295 /* PTBaseDataModel.m */; };
+		3094BBAA24725712002C4295 /* PTBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3094BBA224725712002C4295 /* PTBaseTableViewCell.m */; };
+		3094BBAB24725712002C4295 /* BaseTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3094BBA324725712002C4295 /* BaseTableViewCellLayout.m */; };
+		3094BBAC24725712002C4295 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3094BBA424725712002C4295 /* data.json */; };
+		3094BBAD24725712002C4295 /* DouYinCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3094BBA524725712002C4295 /* DouYinCollectionViewCell.m */; };
+		3094BBAE24725712002C4295 /* DouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3094BBA624725712002C4295 /* DouYinControlView.m */; };
 		5202913850ECBA04CE3F8CAF /* libPods-YACOVideo_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88315E5F8F086CB18DF0E60 /* libPods-YACOVideo_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,8 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03839BCABEAA64646F226E11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0DC500EE1CAE507FC4F58843 /* YACOVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YACOVideo.podspec; path = ../YACOVideo.podspec; sourceTree = "<group>"; };
+		03839BCABEAA64646F226E11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0DC500EE1CAE507FC4F58843 /* YACOVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YACOVideo.podspec; path = ../YACOVideo.podspec; sourceTree = "<group>"; };
+		3094BB9E24725712002C4295 /* BaseTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCellLayout.h; sourceTree = "<group>"; };
+		3094BB9F24725712002C4295 /* PTBaseDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBaseDataModel.m; sourceTree = "<group>"; };
+		3094BBA024725712002C4295 /* DouYinControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinControlView.h; sourceTree = "<group>"; };
+		3094BBA124725712002C4295 /* DouYinCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DouYinCollectionViewCell.h; sourceTree = "<group>"; };
+		3094BBA224725712002C4295 /* PTBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTBaseTableViewCell.m; sourceTree = "<group>"; };
+		3094BBA324725712002C4295 /* BaseTableViewCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellLayout.m; sourceTree = "<group>"; };
+		3094BBA424725712002C4295 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		3094BBA524725712002C4295 /* DouYinCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinCollectionViewCell.m; sourceTree = "<group>"; };
+		3094BBA624725712002C4295 /* DouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DouYinControlView.m; sourceTree = "<group>"; };
+		3094BBA724725712002C4295 /* PTBaseDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBaseDataModel.h; sourceTree = "<group>"; };
+		3094BBA824725712002C4295 /* PTBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTBaseTableViewCell.h; sourceTree = "<group>"; };
 		36E99A4663409B9F876F5948 /* libPods-YACOVideo_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YACOVideo_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA84D74BE998F5CDA893AC /* Pods-YACOVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Tests/Pods-YACOVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5632623FA1AA8BF343419E49 /* Pods-YACOVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Tests.release.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Tests/Pods-YACOVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +80,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6F4808052E6549BCC63BEB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A6F4808052E6549BCC63BEB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B7B6F5739E8702860BB9530D /* Pods-YACOVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B88315E5F8F086CB18DF0E60 /* libPods-YACOVideo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YACOVideo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1B1844BD6430F9C6F1D730 /* Pods-YACOVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Example.release.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +112,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3094BB9D24725712002C4295 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3094BB9E24725712002C4295 /* BaseTableViewCellLayout.h */,
+				3094BB9F24725712002C4295 /* PTBaseDataModel.m */,
+				3094BBA024725712002C4295 /* DouYinControlView.h */,
+				3094BBA124725712002C4295 /* DouYinCollectionViewCell.h */,
+				3094BBA224725712002C4295 /* PTBaseTableViewCell.m */,
+				3094BBA324725712002C4295 /* BaseTableViewCellLayout.m */,
+				3094BBA424725712002C4295 /* data.json */,
+				3094BBA524725712002C4295 /* DouYinCollectionViewCell.m */,
+				3094BBA624725712002C4295 /* DouYinControlView.m */,
+				3094BBA724725712002C4295 /* PTBaseDataModel.h */,
+				3094BBA824725712002C4295 /* PTBaseTableViewCell.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +167,7 @@
 		6003F593195388D20070C39A /* Example for YACOVideo */ = {
 			isa = PBXGroup;
 			children = (
+				3094BB9D24725712002C4295 /* Other */,
 				6003F59C195388D20070C39A /* YACOAppDelegate.h */,
 				6003F59D195388D20070C39A /* YACOAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +229,6 @@
 				3DBA84D74BE998F5CDA893AC /* Pods-YACOVideo_Tests.debug.xcconfig */,
 				5632623FA1AA8BF343419E49 /* Pods-YACOVideo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +283,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "751185567@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = U3K76DT4W3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +296,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +319,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3094BBAC24725712002C4295 /* data.json in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,10 +386,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/YACOAutoFitScreen/YACOAutoFitScreen.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/YACOVideo/YACOVideo.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YACOAutoFitScreen.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YACOVideo.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3094BBAB24725712002C4295 /* BaseTableViewCellLayout.m in Sources */,
+				3094BBAD24725712002C4295 /* DouYinCollectionViewCell.m in Sources */,
+				3094BBAE24725712002C4295 /* DouYinControlView.m in Sources */,
 				6003F59E195388D20070C39A /* YACOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YACOViewController.m in Sources */,
+				3094BBAA24725712002C4295 /* PTBaseTableViewCell.m in Sources */,
+				3094BBA924725712002C4295 /* PTBaseDataModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +541,7 @@
 			baseConfigurationReference = B7B6F5739E8702860BB9530D /* Pods-YACOVideo_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3K76DT4W3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YACOVideo/YACOVideo-Prefix.pch";
 				INFOPLIST_FILE = "YACOVideo/YACOVideo-Info.plist";
@@ -510,6 +558,7 @@
 			baseConfigurationReference = FE1B1844BD6430F9C6F1D730 /* Pods-YACOVideo_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3K76DT4W3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YACOVideo/YACOVideo-Prefix.pch";
 				INFOPLIST_FILE = "YACOVideo/YACOVideo-Info.plist";

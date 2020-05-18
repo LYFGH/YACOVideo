@@ -7,7 +7,10 @@
 //
 
 @import UIKit;
+#import <YACOVideo/ZFPlayer.h>
 
 @interface YACOViewController : UIViewController
+@property (nonatomic, assign) ZFPlayerScrollViewDirection scrollViewDirection;
 
+- (void)playTheIndex:(NSInteger)index;
 @end

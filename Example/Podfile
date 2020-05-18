@@ -1,10 +1,22 @@
 #use_frameworks!
 
+source "https://github.com/CocoaPods/Specs.git"
+source "https://github.com/LYFGH/YACOSpecs.git"
+
+inhibit_all_warnings!
+
+
 platform :ios, '8.0'
 
 target 'YACOVideo_Example' do
   pod 'YACOVideo', :path => '../'
-
+  
+  pod 'YACOBasicUIKit'
+  pod 'YACOBasicFoundation'
+  pod 'YACOBasicFoundation'
+  pod 'YACOAutoFitScreen'
+  
+  
   target 'YACOVideo_Tests' do
     inherit! :search_paths
 
