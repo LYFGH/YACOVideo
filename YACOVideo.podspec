@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'YACOVideo/Classes/**/*'
   
   s.resource_bundles = {
-     'YACOVideo' => ['YACOVideo/Assets/*.png']
+     'YACOVideo' => ['YACOVideo/Assets/*']
   }
 
 #  s.dependency 'AFNetworking'

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5202913850ECBA04CE3F8CAF /* libPods-YACOVideo_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B88315E5F8F086CB18DF0E60 /* libPods-YACOVideo_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		664C5310B22E48155438973D /* Pods_YACOVideo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA8F5188771908E9623F18D /* Pods_YACOVideo_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		7B8085DE7D05647CA97BF6D9 /* Pods_YACOVideo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0533ED27C1A2FBC68FB37C /* Pods_YACOVideo_Tests.framework */; };
+		72D7A55998DA014A6F26A965 /* libPods-YACOVideo_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E99A4663409B9F876F5948 /* libPods-YACOVideo_Tests.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		03839BCABEAA64646F226E11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0DC500EE1CAE507FC4F58843 /* YACOVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YACOVideo.podspec; path = ../YACOVideo.podspec; sourceTree = "<group>"; };
+		36E99A4663409B9F876F5948 /* libPods-YACOVideo_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YACOVideo_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBA84D74BE998F5CDA893AC /* Pods-YACOVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Tests/Pods-YACOVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3FA8F5188771908E9623F18D /* Pods_YACOVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5632623FA1AA8BF343419E49 /* Pods-YACOVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Tests.release.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Tests/Pods-YACOVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YACOVideo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YACOVideo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F0533ED27C1A2FBC68FB37C /* Pods_YACOVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6F4808052E6549BCC63BEB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B7B6F5739E8702860BB9530D /* Pods-YACOVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B88315E5F8F086CB18DF0E60 /* libPods-YACOVideo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YACOVideo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1B1844BD6430F9C6F1D730 /* Pods-YACOVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOVideo_Example.release.xcconfig"; path = "Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				664C5310B22E48155438973D /* Pods_YACOVideo_Example.framework in Frameworks */,
+				5202913850ECBA04CE3F8CAF /* libPods-YACOVideo_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				7B8085DE7D05647CA97BF6D9 /* Pods_YACOVideo_Tests.framework in Frameworks */,
+				72D7A55998DA014A6F26A965 /* libPods-YACOVideo_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				3FA8F5188771908E9623F18D /* Pods_YACOVideo_Example.framework */,
-				6F0533ED27C1A2FBC68FB37C /* Pods_YACOVideo_Tests.framework */,
+				B88315E5F8F086CB18DF0E60 /* libPods-YACOVideo_Example.a */,
+				36E99A4663409B9F876F5948 /* libPods-YACOVideo_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				B8EDD6E6BEC79FB347DE3718 /* [CP] Embed Pods Frameworks */,
+				EEAAA2C5CA7F22DF1C481764 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,22 +339,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8EDD6E6BEC79FB347DE3718 /* [CP] Embed Pods Frameworks */ = {
+		EEAAA2C5CA7F22DF1C481764 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YACOVideo/YACOVideo.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/YACOVideo/YACOVideo.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YACOVideo.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YACOVideo.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YACOVideo_Example/Pods-YACOVideo_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
