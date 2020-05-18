@@ -1,0 +1,16 @@
+PODS:
+  - YACOVideo (0.1.0)
+
+DEPENDENCIES:
+  - YACOVideo (from `../`)
+
+EXTERNAL SOURCES:
+  YACOVideo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YACOVideo: 7c266d31bf0c6856f6425f92f6d3a6118a08f9fe
+
+PODFILE CHECKSUM: 21cb5cdd55bb70785a74506a539aaed63de943b0
+
+COCOAPODS: 1.9.1
